@@ -183,7 +183,7 @@ func (a *translator) translate(origin, src, dest string) (string, error) {
 		}
 		return translated, nil
 	} else {
-		return "", fmt.Errorf("request error")
+		return "", fmt.Errorf("request error,status:%d,message:%v", resp.StatusCode, resp)
 	}
 }
 
