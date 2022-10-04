@@ -1,7 +1,7 @@
 # Googletrans
 
-[![Sourcegraph](https://sourcegraph.com/github.com/Conight/go-googletrans/-/badge.svg)](https://sourcegraph.com/github.com/Conight/go-googletrans?badge)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Conight/go-googletrans/blob/master/LICENSE)
+[![Sourcegraph](https://sourcegraph.com/github.com/chaegumi/go-googletrans/-/badge.svg)](https://sourcegraph.com/github.com/chaegumi/go-googletrans?badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/chaegumi/go-googletrans/blob/master/LICENSE)
 
 This is Golang version of [py-googletrans](https://github.com/ssut/py-googletrans).
 
@@ -10,7 +10,7 @@ This uses the [Google Translate Ajax API from Chrome extensions](https://chrome.
 
 ## Download from Github
 ```shell script
-GO111MODULE=on go get github.com/Conight/go-googletrans
+GO111MODULE=on go get github.com/chaegumi/go-googletrans
 ```
 
 ## Quick Start Example
@@ -21,7 +21,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Conight/go-googletrans"
+	"github.com/chaegumi/go-googletrans"
 )
 
 func main() {
