@@ -113,12 +113,12 @@ func (a *translator) Translate(origin, src, dest string) (*translated, error) {
 	// check src & dest
 	src = strings.ToLower(src)
 	dest = strings.ToLower(dest)
-	if _, ok := languages[src]; !ok {
-		return nil, fmt.Errorf("src language code error")
-	}
-	if val, ok := languages[dest]; !ok || val == "auto" {
-		return nil, fmt.Errorf("dest language code error")
-	}
+	// if _, ok := languages[src]; !ok {
+	// 	return nil, fmt.Errorf("src language code error")
+	// }
+	// if val, ok := languages[dest]; !ok || val == "auto" {
+	// 	return nil, fmt.Errorf("dest language code error")
+	// }
 
 	text, err := a.translate(origin, src, dest)
 	if err != nil {
